@@ -1,0 +1,30 @@
+table{text-align: left;}
+img {
+    float: left; 
+    width: 190px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border:2px black;
+}
+table {
+    display: inline-block;
+    vertical-align: top;
+}
+p {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+.container-biodata {
+    border: 2px solid black;
+    padding: 20px;        
+    display: flex;       
+    align-items: flex-start; 
+    width: fit-content;
+    border-radius: 10px;    
+    background-color: #f9f9f9; 
+}
+.container-biodata img {
+    margin-right: 20px;
+}
